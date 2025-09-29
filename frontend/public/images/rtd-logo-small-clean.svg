@@ -1,0 +1,35 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#ffffff"/>
+  
+  <!-- Orange top section with location pin -->
+  <path d="M0 32 Q16 26 32 32 Q48 26 64 32 L64 0 Q32 0 0 0 Z" fill="#FF5722"/>
+  
+  <!-- Location pin -->
+  <path d="M32 6 C38 6 43 11 43 17 C43 22 38 28 32 35 C26 28 21 22 21 17 C21 11 26 6 32 6 Z" fill="#FF5722"/>
+  
+  <!-- White inner circle of location pin -->
+  <circle cx="32" cy="17" r="4" fill="white"/>
+  
+  <!-- Blue bottom section with hand -->
+  <path d="M0 32 Q16 38 32 32 Q48 38 64 32 L64 64 Q32 64 0 64 Z" fill="#2196F3"/>
+  
+  <!-- Hand palm -->
+  <path d="M16 45 Q22 42 32 43 Q42 42 48 45 Q46 51 32 53 Q18 51 16 45 Z" fill="#2196F3"/>
+  
+  <!-- Fingers with white stroke outlines -->
+  <!-- Thumb -->
+  <path d="M21 40 Q19 38 21 37 Q23 38 24 40 Q22 43 21 43 Z" fill="#2196F3" stroke="white" stroke-width="1"/>
+  
+  <!-- Index finger -->
+  <path d="M27 38 Q26 34 27 33 Q28 34 30 37 Q28 40 27 40 Z" fill="#2196F3" stroke="white" stroke-width="1"/>
+  
+  <!-- Middle finger -->
+  <path d="M32 38 Q30 34 32 33 Q34 34 35 37 Q34 40 32 40 Z" fill="#2196F3" stroke="white" stroke-width="1"/>
+  
+  <!-- Ring finger -->
+  <path d="M37 38 Q36 34 37 33 Q38 34 40 37 Q38 40 37 40 Z" fill="#2196F3" stroke="white" stroke-width="1"/>
+  
+  <!-- Pinky finger -->
+  <path d="M42 40 Q41 37 42 37 Q43 37 44 39 Q43 42 42 42 Z" fill="#2196F3" stroke="white" stroke-width="1"/>
+</svg>
