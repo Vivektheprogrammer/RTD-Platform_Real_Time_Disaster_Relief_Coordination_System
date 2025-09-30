@@ -260,6 +260,16 @@ const NGODashboard = ({ user }) => {
 };
 
 const VolunteerDashboard = ({ user }) => {
+  const { notifications } = useNotification();
+  
+  // Filter emergency alerts from notifications
+  const emergencyAlerts = React.useMemo(() => {
+    if (!notifications) return [];
+    return notifications.filter(notification => 
+      notification.type === 'emergency' || notification.priority === 'urgent'
+    );
+  }, [notifications]);
+
   return (
     <div className="space-y-6">
       <div className="bg-white shadow rounded-lg p-6">
